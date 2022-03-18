@@ -1,0 +1,903 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>TEH-CLIMAT</title>
+    <link rel="stylesheet" href="./css/slick.css">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/bt3.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+<header id="header">
+    <div class="container">
+        <div class="header">
+            <div class="header__logo">
+                <img src="./img/Logo.svg" class="header__logo--elems" alt="">
+            </div>
+            <div class="header__items">
+                <div class="header__items__email">
+                    <i class="fa-solid fa-envelope lg"></i>
+                    <a href="https://mail.ru/info@teh-climat.ru" class="header__items__email--par">
+                        info@teh-climat.ru
+                    </a>
+                </div>
+                <div class="header__items__clock">
+                    <i class="fa-solid fa-clock lg"></i>
+                    <div class="header__items__clock--par">
+                        <a href="#" class="header__items__clock--par--elem">Режим работы:</a>
+                        <a href="#" class="header__items__clock--par--elem">с 9:00 до 22:00</a>
+                    </div>
+                </div>
+                <div class="header__items__phone">
+                    <i class="fa-solid fa-phone lg"></i>
+                    <div class="header__items__phone--par">
+                        <a href="tel:84952058228" class="header__items__phone--par--elem">8 495 205 82 28</a>
+                        <a href="tel:89854143434" class="header__items__phone--par--elem">8 985 414 34 34</a>
+                    </div>
+                </div>
+
+                <button class="header__items__btn">
+                    ПОЗВОНИТЕ МНЕ
+                </button>
+
+            </div>
+            <div class="burger-menu">
+                <input id="menu-toggle" type="checkbox"/>
+                <label class="menu-btn" for="menu-toggle">
+                    <span></span>
+                </label>
+
+                <ul class="menubox">
+                    <li><span class="menu">Email-адрес:</span><a class="menu-item" href="#https://mail.ru/info@teh-climat.ru">info@teh-climat.ru</a></li>
+                    <li><span class="menu">Режим работы:</span><a class="menu-item" href="#">с 9:00 до 22:00</a></li>
+                    <li><span class="menu">Телефон</span><a href="tel:84952958228" class="menu-item">8 495 205 82 28</a>
+                    </li>
+                    <li><a href="tel:+79854143434" class="menu-item">8 985 414 34 34</a></li>
+                    <li><a class="menu-item btn" href="#">ПОЗВОНИТЕ МНЕ</a></li>
+                    <li><a class="menu-item" href="#product__buttons__stand">Обычные on/off</a></li>
+                    <li><a class="menu-item" href="#product__buttons__inventor">Инвенторные</a></li>
+                    <li><a class="menu-item" href="#product__buttons__multi">Мульти-системы</a></li>
+                    <li><a class="menu-item" href="#mounting__title">Работы по монтажу</a></li>
+                    <li><a class="menu-item" href="#question__title">Вопрос-ответ</a></li>
+                    <li><a class="menu-item" href="#review__title">Отзывы клиентов</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</header>
+
+<section id="hero">
+    <div class="container">
+        <div class="hero">
+            <img src="./img/line.svg" class="hero__line" alt="">
+
+            <div class="hero__menu">
+                <a href="#product__buttons__stand" class="hero__menu--elem">Обычные on/off</a>
+                <a href="#product__buttons__inventor" class="hero__menu--elem">Инвенторные</a>
+                <a href="#product__buttons__multi" class="hero__menu--elem">Мульти-системы</a>
+                <a href="#mounting__title" class="hero__menu--elem">Работы по монтажу</a>
+                <a href="#question__title" class="hero__menu--elem">Вопрос-ответ</a>
+                <a href="#review__title" class="hero__menu--elem">Отзывы клиентов</a>
+            </div>
+
+            <div class="hero__cond">
+                <h1 class="hero__cond--theme">Купи кондиционер - подари себе <br> тишину и комфорт</h1>
+                <div class="hero__cond--model">
+                    <a href="#product__title" class="hero__cond--model--elem">Более 200 моделей</a>
+                </div>
+            </div>
+
+            <div class="hero__cards">
+                <div class="hero__cards__card">
+                    <div class="hero__cards__card--theme">
+                        <i class="fa-solid fa-star ic-lg"></i>
+                        <h1 class="hero__cards__card--theme__title">Гарантия 3 года</h1>
+                    </div>
+                    <div class="hero__cards__card--line"></div>
+                    <p class="hero__cards__card--desc">Гарантия на кондиционеры и установку 3 года</p>
+                </div>
+                <div class="hero__cards__card">
+                    <div class="hero__cards__card--theme">
+                        <i class="fa-solid fa-clock ic-lg"></i>
+                        <h1 class="hero__cards__card--theme__title">Работа в 1 день</h1>
+                    </div>
+                    <div class="hero__cards__card--line"></div>
+                    <p class="hero__cards__card--desc">Доставим и установим кондиционер за 1 день</p>
+                </div>
+                <div class="hero__cards__card">
+                    <div class="hero__cards__card--theme">
+                        <i class="fa-solid fa-money-bill ic-lg"></i>
+                        <h1 class="hero__cards__card--theme__title">Оплата после</h1>
+                    </div>
+                    <div class="hero__cards__card--line"></div>
+                    <p class="hero__cards__card--desc">Вы оплачиваете всю сумму после доставки и монтажа, если довольны
+                        результатом</p>
+                </div>
+                <div class="hero__cards__card">
+                    <div class="hero__cards__card--theme">
+                        <i class="fa-solid fa-clock ic-lg"></i>
+                        <h1 class="hero__cards__card--theme__title">Лучшие монтажники</h1>
+                    </div>
+                    <div class="hero__cards__card--line"></div>
+                    <p class="hero__cards__card--desc">Работают самые опытные монтажники Москвы</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="price">
+    <div class="container">
+        <div class="price">
+            <h1 class="price__calculate">Рассчитать стоимость <br> кондиционера с установкой</h1>
+            <div class="price__conditions">
+                <div class="price__conditions__place">
+                    <img src="./img/kvartira.png" class="price__conditions__place--pic" alt="">
+                    <p class="price__conditions__place--desc">Квартира</p>
+                </div>
+                <div class="price__conditions__place">
+                    <img src="./img/dom.png" class="price__conditions__place--pic" alt="">
+                    <p class="price__conditions__place--desc">Дом</p>
+                </div>
+                <div class="price__conditions__place">
+                    <img src="./img/office.png" class="price__conditions__place--pic" alt="">
+                    <p class="price__conditions__place--desc">Офис</p>
+                </div>
+                <div class="price__conditions__place">
+                    <img src="./img/magazine.png" class="price__conditions__place--pic" alt="">
+                    <p class="price__conditions__place--desc">Магазин</p>
+                </div>
+                <div class="price__conditions__place">
+                    <img src="./img/dom.png" class="price__conditions__place--pic" alt="">
+                    <p class="price__conditions__place--desc">Дом</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="product">
+    <div class="container">
+        <div class="product">
+            <h1 class="product__title" id="product__title">Наша продукция</h1>
+            <div class="product__buttons">
+                <button class="product__buttons__stand" id="product__buttons__stand">Стандарт</button>
+                <button class="product__buttons__inventor" id="product__buttons__inventor">Инвентор</button>
+                <button class="product__buttons__multi" id="product__buttons__multi">Мультисплит</button>
+            </div>
+            <p class="product__desc">Стандартный кондиционер выполняет все необходимые функции и работает по принципу:
+                включился/охладил/выключился. Во внутренний блок кондиционера установлен датчик, он фиксирует, что
+                температура в комнате нагрелась и кондиционер включился снова. Стандартные модели более устойчивы к
+                перепадам напряжения эл.энергии.
+                Купить кондиционер с установкой в Москве и области по самым низким ценам от компании ЦезарьГрупп можно
+                оставив заявку на интересующую Вас модель или позвонив по телефону 8-495-205-82-28.</p>
+            <div class="product__conditioners" id="#product__conditioners">
+                <div class="product__conditioners__elem">
+                    <div class="product__conditioners__elem--pic">
+                        <img src="./img/Conditioners.svg" class="product__conditioners__elem--pic__elem1" alt="">
+                    </div>
+                    <h2 class="product__conditioners__elem--title">GENERAL CLIMATE GU-A07HR</h2>
+                    <div class="product__conditioners__elem--item">
+                        <div class="product__conditioners__elem--item__check">
+                            <input type="checkbox" id="ion" name="ion" class="checking" checked>
+                            <label for="ion" class="product__conditioners__elem--item__check--label">Ионизатор</label>
+                        </div>
+                        <div class="product__conditioners__elem--item__check">
+                            <input type="checkbox" id="bio" name="ion" class="checking" checked>
+                            <label for="bio" class="product__conditioners__elem--item__check--label">Биофильтр</label>
+                        </div>
+                        <div class="product__conditioners__elem--item__check">
+                            <input type="checkbox" id="filtr" name="ion" class="checking" checked>
+                            <label for="filtr" class="product__conditioners__elem--item__check--label">Фильтр с ионами
+                                серебра</label>
+                        </div>
+                        <div class="product__conditioners__elem--item__check">
+                            <input type="checkbox" id="avto" name="ion" class="checking" checked>
+                            <label for="avto"
+                                   class="product__conditioners__elem--item__check--label">Авторестарт</label>
+                        </div>
+                        <div class="product__conditioners__elem--item__check">
+                            <input type="checkbox" id="diag" name="ion" class="checking" checked>
+                            <label for="diag"
+                                   class="product__conditioners__elem--item__check--label">Самодиагностика</label>
+                        </div>
+                        <p class="product__conditioners__elem--item__desc">Габариты (ШхВхГ): 75x25x19.8 см</p>
+                    </div>
+                    <h3 class="product__conditioners__elem--square-title">Площадь до:</h3>
+                    <div class="product__conditioners__elem--square-buttons">
+                        <button class="product__conditioners__elem--square-buttons__btn1">20 м²</button>
+                        <button class="product__conditioners__elem--square-buttons__btn2">25 м²</button>
+                        <button class="product__conditioners__elem--square-buttons__btn3">35 м²</button>
+                        <button class="product__conditioners__elem--square-buttons__btn4">50 м²</button>
+                    </div>
+                    <div class="product__conditioners__elem--money">
+                        <h3 class="product__conditioners__elem--money--skidka">35800 ₽</h3>
+                        <h3 class="product__conditioners__elem--money--price">24800 ₽</h3>
+                    </div>
+                    <div class="product__conditioners__elem--buttons">
+                        <button class="product__conditioners__elem--buttons__more">ПОДРОБНЕЕ</button>
+                        <button class="product__conditioners__elem--buttons__buy">КУПИТЬ</button>
+                    </div>
+                </div>
+                <div class="product__conditioners__elem">
+                    <div class="product__conditioners__elem--pic">
+                        <img src="./img/Conditioners.svg" class="product__conditioners__elem--pic__elem1" alt="">
+                    </div>
+                    <h2 class="product__conditioners__elem--title">GENERAL CLIMATE GU-A07HR</h2>
+                    <div class="product__conditioners__elem--item">
+                        <div class="product__conditioners__elem--item__check">
+                            <input type="checkbox" id="ion1" name="ion" class="checking" checked>
+                            <label for="ion1" class="product__conditioners__elem--item__check--label">Ионизатор</label>
+                        </div>
+                        <div class="product__conditioners__elem--item__check">
+                            <input type="checkbox" id="bio1" name="ion" class="checking" checked>
+                            <label for="bio1" class="product__conditioners__elem--item__check--label">Биофильтр</label>
+                        </div>
+                        <div class="product__conditioners__elem--item__check">
+                            <input type="checkbox" id="filtr1" name="ion" class="checking" checked>
+                            <label for="filtr1" class="product__conditioners__elem--item__check--label">Фильтр с ионами
+                                серебра</label>
+                        </div>
+                        <div class="product__conditioners__elem--item__check">
+                            <input type="checkbox" id="avto1" name="ion" class="checking" checked>
+                            <label for="avto1"
+                                   class="product__conditioners__elem--item__check--label">Авторестарт</label>
+                        </div>
+                        <div class="product__conditioners__elem--item__check">
+                            <input type="checkbox" id="diag1" name="ion" class="checking" checked>
+                            <label for="diag1"
+                                   class="product__conditioners__elem--item__check--label">Самодиагностика</label>
+                        </div>
+                        <p class="product__conditioners__elem--item__desc">Габариты (ШхВхГ): 75x25x19.8 см</p>
+                    </div>
+                    <h3 class="product__conditioners__elem--square-title">Площадь до:</h3>
+                    <div class="product__conditioners__elem--square-buttons">
+                        <button class="product__conditioners__elem--square-buttons__btn1">20 м²</button>
+                        <button class="product__conditioners__elem--square-buttons__btn2">25 м²</button>
+                        <button class="product__conditioners__elem--square-buttons__btn3">35 м²</button>
+                        <button class="product__conditioners__elem--square-buttons__btn4">50 м²</button>
+                    </div>
+                    <div class="product__conditioners__elem--money">
+                        <h3 class="product__conditioners__elem--money--skidka">35800 ₽</h3>
+                        <h3 class="product__conditioners__elem--money--price">24800 ₽</h3>
+                    </div>
+                    <div class="product__conditioners__elem--buttons">
+                        <button class="product__conditioners__elem--buttons__more">ПОДРОБНЕЕ</button>
+                        <button class="product__conditioners__elem--buttons__buy">КУПИТЬ</button>
+                    </div>
+                </div>
+                <div class="product__conditioners__elem">
+                    <div class="product__conditioners__elem--pic">
+                        <img src="./img/Conditioners.svg" class="product__conditioners__elem--pic__elem1" alt="">
+                    </div>
+                    <h2 class="product__conditioners__elem--title">GENERAL CLIMATE GU-A07HR</h2>
+                    <div class="product__conditioners__elem--item">
+                        <div class="product__conditioners__elem--item__check">
+                            <input type="checkbox" id="ion2" name="ion" class="checking" checked>
+                            <label for="ion2" class="product__conditioners__elem--item__check--label">Ионизатор</label>
+                        </div>
+                        <div class="product__conditioners__elem--item__check">
+                            <input type="checkbox" id="bio2" name="ion" class="checking" checked>
+                            <label for="bio2" class="product__conditioners__elem--item__check--label">Биофильтр</label>
+                        </div>
+                        <div class="product__conditioners__elem--item__check">
+                            <input type="checkbox" id="filtr2" name="ion" class="checking" checked>
+                            <label for="filtr2" class="product__conditioners__elem--item__check--label">Фильтр с ионами
+                                серебра</label>
+                        </div>
+                        <div class="product__conditioners__elem--item__check">
+                            <input type="checkbox" id="avto2" name="ion" class="checking" checked>
+                            <label for="avto2"
+                                   class="product__conditioners__elem--item__check--label">Авторестарт</label>
+                        </div>
+                        <div class="product__conditioners__elem--item__check">
+                            <input type="checkbox" id="diag2" name="ion" class="checking" checked>
+                            <label for="diag2"
+                                   class="product__conditioners__elem--item__check--label">Самодиагностика</label>
+                        </div>
+                        <p class="product__conditioners__elem--item__desc">Габариты (ШхВхГ): 75x25x19.8 см</p>
+                    </div>
+                    <h3 class="product__conditioners__elem--square-title">Площадь до:</h3>
+                    <div class="product__conditioners__elem--square-buttons">
+                        <button class="product__conditioners__elem--square-buttons__btn1">20 м²</button>
+                        <button class="product__conditioners__elem--square-buttons__btn2">25 м²</button>
+                        <button class="product__conditioners__elem--square-buttons__btn3">35 м²</button>
+                        <button class="product__conditioners__elem--square-buttons__btn4">50 м²</button>
+                    </div>
+                    <div class="product__conditioners__elem--money">
+                        <h3 class="product__conditioners__elem--money--skidka">35800 ₽</h3>
+                        <h3 class="product__conditioners__elem--money--price">24800 ₽</h3>
+                    </div>
+                    <div class="product__conditioners__elem--buttons">
+                        <button class="product__conditioners__elem--buttons__more">ПОДРОБНЕЕ</button>
+                        <button class="product__conditioners__elem--buttons__buy">КУПИТЬ</button>
+                    </div>
+                </div>
+
+                <div class="product__conditioners__elem">
+                    <div class="product__conditioners__elem--pic">
+                        <img src="./img/Conditioners.svg" class="product__conditioners__elem--pic__elem1" alt="">
+                    </div>
+                    <h2 class="product__conditioners__elem--title">GENERAL CLIMATE GU-A07HR</h2>
+                    <div class="product__conditioners__elem--item">
+                        <div class="product__conditioners__elem--item__check">
+                            <input type="checkbox" id="ion4" name="ion" class="checking" checked>
+                            <label for="ion4" class="product__conditioners__elem--item__check--label">Ионизатор</label>
+                        </div>
+                        <div class="product__conditioners__elem--item__check">
+                            <input type="checkbox" id="bio4" name="ion" class="checking" checked>
+                            <label for="bio4" class="product__conditioners__elem--item__check--label">Биофильтр</label>
+                        </div>
+                        <div class="product__conditioners__elem--item__check">
+                            <input type="checkbox" id="filtr4" name="ion" class="checking" checked>
+                            <label for="filtr4" class="product__conditioners__elem--item__check--label">Фильтр с ионами
+                                серебра</label>
+                        </div>
+                        <div class="product__conditioners__elem--item__check">
+                            <input type="checkbox" id="avto4" name="ion" class="checking" checked>
+                            <label for="avto4"
+                                   class="product__conditioners__elem--item__check--label">Авторестарт</label>
+                        </div>
+                        <div class="product__conditioners__elem--item__check">
+                            <input type="checkbox" id="diag4" name="ion" class="checking" checked>
+                            <label for="diag4"
+                                   class="product__conditioners__elem--item__check--label">Самодиагностика</label>
+                        </div>
+                        <p class="product__conditioners__elem--item__desc">Габариты (ШхВхГ): 75x25x19.8 см</p>
+                    </div>
+                    <h3 class="product__conditioners__elem--square-title">Площадь до:</h3>
+                    <div class="product__conditioners__elem--square-buttons">
+                        <button class="product__conditioners__elem--square-buttons__btn1">20 м²</button>
+                        <button class="product__conditioners__elem--square-buttons__btn2">25 м²</button>
+                        <button class="product__conditioners__elem--square-buttons__btn3">35 м²</button>
+                        <button class="product__conditioners__elem--square-buttons__btn4">50 м²</button>
+                    </div>
+                    <div class="product__conditioners__elem--money">
+                        <h3 class="product__conditioners__elem--money--skidka">35800 ₽</h3>
+                        <h3 class="product__conditioners__elem--money--price">24800 ₽</h3>
+                    </div>
+                    <div class="product__conditioners__elem--buttons">
+                        <button class="product__conditioners__elem--buttons__more">ПОДРОБНЕЕ</button>
+                        <button class="product__conditioners__elem--buttons__buy">КУПИТЬ</button>
+                    </div>
+                </div>
+                <div class="product__conditioners__elem">
+                    <div class="product__conditioners__elem--pic">
+                        <img src="./img/Conditioners.svg" class="product__conditioners__elem--pic__elem1" alt="">
+                    </div>
+                    <h2 class="product__conditioners__elem--title">GENERAL CLIMATE GU-A07HR</h2>
+                    <div class="product__conditioners__elem--item">
+                        <div class="product__conditioners__elem--item__check">
+                            <input type="checkbox" id="ion5" name="ion" class="checking" checked>
+                            <label for="ion5" class="product__conditioners__elem--item__check--label">Ионизатор</label>
+                        </div>
+                        <div class="product__conditioners__elem--item__check">
+                            <input type="checkbox" id="bio5" name="ion" class="checking" checked>
+                            <label for="bio5" class="product__conditioners__elem--item__check--label">Биофильтр</label>
+                        </div>
+                        <div class="product__conditioners__elem--item__check">
+                            <input type="checkbox" id="filtr5" name="ion" class="checking" checked>
+                            <label for="filtr5" class="product__conditioners__elem--item__check--label">Фильтр с ионами
+                                серебра</label>
+                        </div>
+                        <div class="product__conditioners__elem--item__check">
+                            <input type="checkbox" id="avto5" name="ion" class="checking" checked>
+                            <label for="avto5"
+                                   class="product__conditioners__elem--item__check--label">Авторестарт</label>
+                        </div>
+                        <div class="product__conditioners__elem--item__check">
+                            <input type="checkbox" id="diag5" name="ion" class="checking" checked>
+                            <label for="diag5"
+                                   class="product__conditioners__elem--item__check--label">Самодиагностика</label>
+                        </div>
+                        <p class="product__conditioners__elem--item__desc">Габариты (ШхВхГ): 75x25x19.8 см</p>
+                    </div>
+                    <h3 class="product__conditioners__elem--square-title">Площадь до:</h3>
+                    <div class="product__conditioners__elem--square-buttons">
+                        <button class="product__conditioners__elem--square-buttons__btn1">20 м²</button>
+                        <button class="product__conditioners__elem--square-buttons__btn2">25 м²</button>
+                        <button class="product__conditioners__elem--square-buttons__btn3">35 м²</button>
+                        <button class="product__conditioners__elem--square-buttons__btn4">50 м²</button>
+                    </div>
+                    <div class="product__conditioners__elem--money">
+                        <h3 class="product__conditioners__elem--money--skidka">35800 ₽</h3>
+                        <h3 class="product__conditioners__elem--money--price">24800 ₽</h3>
+                    </div>
+                    <div class="product__conditioners__elem--buttons">
+                        <button class="product__conditioners__elem--buttons__more">ПОДРОБНЕЕ</button>
+                        <button class="product__conditioners__elem--buttons__buy">КУПИТЬ</button>
+                    </div>
+                </div>
+                <div class="product__conditioners__elem">
+                    <div class="product__conditioners__elem--pic">
+                        <img src="./img/Conditioners.svg" class="product__conditioners__elem--pic__elem1" alt="">
+                    </div>
+                    <h2 class="product__conditioners__elem--title">GENERAL CLIMATE GU-A07HR</h2>
+                    <div class="product__conditioners__elem--item">
+                        <div class="product__conditioners__elem--item__check">
+                            <input type="checkbox" id="ion6" name="ion" class="checking" checked>
+                            <label for="ion6" class="product__conditioners__elem--item__check--label">Ионизатор</label>
+                        </div>
+                        <div class="product__conditioners__elem--item__check">
+                            <input type="checkbox" id="bio6" name="ion" class="checking" checked>
+                            <label for="bio6" class="product__conditioners__elem--item__check--label">Биофильтр</label>
+                        </div>
+                        <div class="product__conditioners__elem--item__check">
+                            <input type="checkbox" id="filtr6" name="ion" class="checking" checked>
+                            <label for="filtr6" class="product__conditioners__elem--item__check--label">Фильтр с ионами
+                                серебра</label>
+                        </div>
+                        <div class="product__conditioners__elem--item__check">
+                            <input type="checkbox" id="avto6" name="ion" class="checking" checked>
+                            <label for="avto6"
+                                   class="product__conditioners__elem--item__check--label">Авторестарт</label>
+                        </div>
+                        <div class="product__conditioners__elem--item__check">
+                            <input type="checkbox" id="diag6" name="ion" class="checking" checked>
+                            <label for="diag6"
+                                   class="product__conditioners__elem--item__check--label">Самодиагностика</label>
+                        </div>
+                        <p class="product__conditioners__elem--item__desc">Габариты (ШхВхГ): 75x25x19.8 см</p>
+                    </div>
+                    <h3 class="product__conditioners__elem--square-title">Площадь до:</h3>
+                    <div class="product__conditioners__elem--square-buttons">
+                        <button class="product__conditioners__elem--square-buttons__btn1">20 м²</button>
+                        <button class="product__conditioners__elem--square-buttons__btn2">25 м²</button>
+                        <button class="product__conditioners__elem--square-buttons__btn3">35 м²</button>
+                        <button class="product__conditioners__elem--square-buttons__btn4">50 м²</button>
+                    </div>
+                    <div class="product__conditioners__elem--money">
+                        <h3 class="product__conditioners__elem--money--skidka">35800 ₽</h3>
+                        <h3 class="product__conditioners__elem--money--price">24800 ₽</h3>
+                    </div>
+                    <div class="product__conditioners__elem--buttons">
+                        <button class="product__conditioners__elem--buttons__more">ПОДРОБНЕЕ</button>
+                        <button class="product__conditioners__elem--buttons__buy">КУПИТЬ</button>
+                    </div>
+                </div>
+
+                <div class="product__conditioners__elem">
+                    <div class="product__conditioners__elem--pic">
+                        <img src="./img/Conditioners.svg" class="product__conditioners__elem--pic__elem1" alt="">
+                    </div>
+                    <h2 class="product__conditioners__elem--title">GENERAL CLIMATE GU-A07HR</h2>
+                    <div class="product__conditioners__elem--item">
+                        <div class="product__conditioners__elem--item__check">
+                            <input type="checkbox" id="ion7" name="ion" class="checking" checked>
+                            <label for="ion7" class="product__conditioners__elem--item__check--label">Ионизатор</label>
+                        </div>
+                        <div class="product__conditioners__elem--item__check">
+                            <input type="checkbox" id="bio7" name="ion" class="checking" checked>
+                            <label for="bio7" class="product__conditioners__elem--item__check--label">Биофильтр</label>
+                        </div>
+                        <div class="product__conditioners__elem--item__check">
+                            <input type="checkbox" id="filtr7" name="ion" class="checking" checked>
+                            <label for="filtr7" class="product__conditioners__elem--item__check--label">Фильтр с ионами
+                                серебра</label>
+                        </div>
+                        <div class="product__conditioners__elem--item__check">
+                            <input type="checkbox" id="avto7" name="ion" class="checking" checked>
+                            <label for="avto7"
+                                   class="product__conditioners__elem--item__check--label">Авторестарт</label>
+                        </div>
+                        <div class="product__conditioners__elem--item__check">
+                            <input type="checkbox" id="diag7" name="ion" class="checking" checked>
+                            <label for="diag7"
+                                   class="product__conditioners__elem--item__check--label">Самодиагностика</label>
+                        </div>
+                        <p class="product__conditioners__elem--item__desc">Габариты (ШхВхГ): 75x25x19.8 см</p>
+                    </div>
+                    <h3 class="product__conditioners__elem--square-title">Площадь до:</h3>
+                    <div class="product__conditioners__elem--square-buttons">
+                        <button class="product__conditioners__elem--square-buttons__btn1">20 м²</button>
+                        <button class="product__conditioners__elem--square-buttons__btn2">25 м²</button>
+                        <button class="product__conditioners__elem--square-buttons__btn3">35 м²</button>
+                        <button class="product__conditioners__elem--square-buttons__btn4">50 м²</button>
+                    </div>
+                    <div class="product__conditioners__elem--money">
+                        <h3 class="product__conditioners__elem--money--skidka">35800 ₽</h3>
+                        <h3 class="product__conditioners__elem--money--price">24800 ₽</h3>
+                    </div>
+                    <div class="product__conditioners__elem--buttons">
+                        <button class="product__conditioners__elem--buttons__more">ПОДРОБНЕЕ</button>
+                        <button class="product__conditioners__elem--buttons__buy">КУПИТЬ</button>
+                    </div>
+                </div>
+                <div class="product__conditioners__elem">
+                    <div class="product__conditioners__elem--pic">
+                        <img src="./img/Conditioners.svg" class="product__conditioners__elem--pic__elem1" alt="">
+                    </div>
+                    <h2 class="product__conditioners__elem--title">GENERAL CLIMATE GU-A07HR</h2>
+                    <div class="product__conditioners__elem--item">
+                        <div class="product__conditioners__elem--item__check">
+                            <input type="checkbox" id="ion8" name="ion" class="checking" checked>
+                            <label for="ion8" class="product__conditioners__elem--item__check--label">Ионизатор</label>
+                        </div>
+                        <div class="product__conditioners__elem--item__check">
+                            <input type="checkbox" id="bio8" name="ion" class="checking" checked>
+                            <label for="bio8" class="product__conditioners__elem--item__check--label">Биофильтр</label>
+                        </div>
+                        <div class="product__conditioners__elem--item__check">
+                            <input type="checkbox" id="filtr8" name="ion" class="checking" checked>
+                            <label for="filtr8" class="product__conditioners__elem--item__check--label">Фильтр с ионами
+                                серебра</label>
+                        </div>
+                        <div class="product__conditioners__elem--item__check">
+                            <input type="checkbox" id="avto8" name="ion" class="checking" checked>
+                            <label for="avto8"
+                                   class="product__conditioners__elem--item__check--label">Авторестарт</label>
+                        </div>
+                        <div class="product__conditioners__elem--item__check">
+                            <input type="checkbox" id="diag8" name="ion" class="checking" checked>
+                            <label for="diag8"
+                                   class="product__conditioners__elem--item__check--label">Самодиагностика</label>
+                        </div>
+                        <p class="product__conditioners__elem--item__desc">Габариты (ШхВхГ): 75x25x19.8 см</p>
+                    </div>
+                    <h3 class="product__conditioners__elem--square-title">Площадь до:</h3>
+                    <div class="product__conditioners__elem--square-buttons">
+                        <button class="product__conditioners__elem--square-buttons__btn1">20 м²</button>
+                        <button class="product__conditioners__elem--square-buttons__btn2">25 м²</button>
+                        <button class="product__conditioners__elem--square-buttons__btn3">35 м²</button>
+                        <button class="product__conditioners__elem--square-buttons__btn4">50 м²</button>
+                    </div>
+                    <div class="product__conditioners__elem--money">
+                        <h3 class="product__conditioners__elem--money--skidka">35800 ₽</h3>
+                        <h3 class="product__conditioners__elem--money--price">24800 ₽</h3>
+                    </div>
+                    <div class="product__conditioners__elem--buttons">
+                        <button class="product__conditioners__elem--buttons__more">ПОДРОБНЕЕ</button>
+                        <button class="product__conditioners__elem--buttons__buy">КУПИТЬ</button>
+                    </div>
+                </div>
+                <div class="product__conditioners__elem">
+                    <div class="product__conditioners__elem--pic">
+                        <img src="./img/Conditioners.svg" class="product__conditioners__elem--pic__elem1" alt="">
+                    </div>
+                    <h2 class="product__conditioners__elem--title">GENERAL CLIMATE GU-A07HR</h2>
+                    <div class="product__conditioners__elem--item">
+                        <div class="product__conditioners__elem--item__check">
+                            <input type="checkbox" id="ion9" name="ion" class="checking" checked>
+                            <label for="ion9" class="product__conditioners__elem--item__check--label">Ионизатор</label>
+                        </div>
+                        <div class="product__conditioners__elem--item__check">
+                            <input type="checkbox" id="bio9" name="ion" class="checking" checked>
+                            <label for="bio9" class="product__conditioners__elem--item__check--label">Биофильтр</label>
+                        </div>
+                        <div class="product__conditioners__elem--item__check">
+                            <input type="checkbox" id="filtr9" name="ion" class="checking" checked>
+                            <label for="filtr9" class="product__conditioners__elem--item__check--label">Фильтр с ионами
+                                серебра</label>
+                        </div>
+                        <div class="product__conditioners__elem--item__check">
+                            <input type="checkbox" id="avto9" name="ion" class="checking" checked>
+                            <label for="avto9"
+                                   class="product__conditioners__elem--item__check--label">Авторестарт</label>
+                        </div>
+                        <div class="product__conditioners__elem--item__check">
+                            <input type="checkbox" id="diag9" name="ion" class="checking" checked>
+                            <label for="diag9"
+                                   class="product__conditioners__elem--item__check--label">Самодиагностика</label>
+                        </div>
+                        <p class="product__conditioners__elem--item__desc">Габариты (ШхВхГ): 75x25x19.8 см</p>
+                    </div>
+                    <h3 class="product__conditioners__elem--square-title">Площадь до:</h3>
+                    <div class="product__conditioners__elem--square-buttons">
+                        <button class="product__conditioners__elem--square-buttons__btn1">20 м²</button>
+                        <button class="product__conditioners__elem--square-buttons__btn2">25 м²</button>
+                        <button class="product__conditioners__elem--square-buttons__btn3">35 м²</button>
+                        <button class="product__conditioners__elem--square-buttons__btn4">50 м²</button>
+                    </div>
+                    <div class="product__conditioners__elem--money">
+                        <h3 class="product__conditioners__elem--money--skidka">35800 ₽</h3>
+                        <h3 class="product__conditioners__elem--money--price">24800 ₽</h3>
+                    </div>
+                    <div class="product__conditioners__elem--buttons">
+                        <button class="product__conditioners__elem--buttons__more">ПОДРОБНЕЕ</button>
+                        <button class="product__conditioners__elem--buttons__buy">КУПИТЬ</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="installation">
+    <div class="container">
+        <div class="installation">
+            <h1 class="installation__title">Установка кондиционера — <br> ответственный процесс</h1>
+            <div class="installation__item">
+                <div class="installation__item__pic">
+                    <img src="./img/wonam1.svg" class="installation__item__pic--img" alt="">
+                    <div class="installation__item__pic--elem"></div>
+                </div>
+                <div class="installation__item__elem">
+                    <p class="installation__item__elem__desc">Профессиональный монтаж кондиционера – залог его долгой и
+                        надежной работы. В нашей компании работают опытные бригады монтажников, оснащённые
+                        профессиональным оборудованием и имеющие за плечами многолетний опыт, что гарантирует высокое
+                        качество производимых монтажных работ.</p>
+                    <div class="installation__item__elem__check">
+                        <i class="fa-solid fa-circle-check lg-icon"></i>
+                        <h4 class="installation__item__elem__check--desc">Мы осуществляем установку сплит-систем,
+                            приобретенных в нашей компании совершенно бесплатно</h4>
+                    </div>
+                    <div class="installation__item__elem__check">
+                        <i class="fa-solid fa-circle-check lg-icon"></i>
+                        <h4 class="installation__item__elem__check--desc">Так же можем установить ваш кондиционер
+                            по Акции всего за <span>8900</span> 6900 рублей.
+                        </h4>
+                    </div>
+                    <p class="installation__item__elem__desc">Компания <span>«ЦезарьГрупп»</span> нацелена на
+                        долговременное сотрудничество со своими клиентами, а потому берет на себя гарантийные
+                        обязательства за установку кондиционера, проведенную сотрудниками нашей организации.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="mounting">
+    <div class="container">
+        <div class="mounting-mg">
+            <div class="mounting">
+                <h2 class="mounting__title" id="mounting__title">Стандартный монтаж включает:</h2>
+                <div class="mounting__item">
+                    <div class="mounting__item__elem">
+                        <div class="mounting__item__elem--num"><span class="number">1</span></div>
+                        <p class="mounting__item__elem--desc">Доставка оборудования к заказчику</p>
+                    </div>
+                    <div class="mounting__item__elem">
+                        <div class="mounting__item__elem--num"><span class="number">2</span></div>
+                        <p class="mounting__item__elem--desc">Установка внешнего блока кондиционера под окном на несущую
+                            стену с использованием стандартных кронштейнов</p>
+                    </div>
+                    <div class="mounting__item__elem">
+                        <div class="mounting__item__elem--num"><span class="number">3</span></div>
+                        <p class="mounting__item__elem--desc">Прокладывание коммуникаций (5 метров входит в стандартный
+                            монтаж)</p>
+                    </div>
+                    <div class="mounting__item__elem">
+                        <div class="mounting__item__elem--num"><span class="number">4</span></div>
+                        <p class="mounting__item__elem--desc">Подключение внутреннего блока</p>
+                    </div>
+                    <div class="mounting__item__elem">
+                        <div class="mounting__item__elem--num"><span class="number">5</span></div>
+                        <p class="mounting__item__elem--desc">Вакуумирование трассы и запуск системы</p>
+                    </div>
+                    <div class="mounting__item__elem">
+                        <div class="mounting__item__elem--num"><span class="number">6</span></div>
+                        <p class="mounting__item__elem--desc">Проверяете как работает оборудование и оплачиваете</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="example">
+    <div class="container">
+        <div class="example">
+            <div class="example__title">Примеры наших работ</div>
+            <div class="w3-row">
+                <a href="javascript:void(0)" onclick="openCity(event, 'London');">
+                    <div class="w3-third tablink w3-bottombar w3-hover-light-grey w3-padding">
+                        <img src="./img/example1.svg" class="example-img" alt="">
+                    </div>
+                </a>
+                <a href="javascript:void(0)" onclick="openCity(event, 'Paris');">
+                    <div class="w3-third tablink w3-bottombar w3-hover-light-grey w3-padding">
+                        <img src="./img/example2.svg" class="example-img" alt="">
+                    </div>
+                </a>
+                <a href="javascript:void(0)" onclick="openCity(event, 'Tokyo');">
+                    <div class="w3-third tablink w3-bottombar w3-hover-light-grey w3-padding">
+                        <img src="./img/example3.svg" class="example-img" alt="">
+                    </div>
+                </a>
+                <a href="javascript:void(0)" onclick="openCity(event, 'Tokyo1');">
+                    <div class="w3-third tablink w3-bottombar w3-hover-light-grey w3-padding">
+                        <img src="./img/example4.svg" class="example-img" alt="">
+                    </div>
+                </a>
+            </div>
+            <div id="London" class="w3-container city" style="display:none"></div>
+
+            <div id="Paris" class="w3-container city" style="display:none"></div>
+
+            <div id="Tokyo" class="w3-container city" style="display:none"></div>
+
+            <div id="Tokyo1" class="w3-container city" style="display:none"></div>
+
+            <div class="example__button">
+                <button class="example__button--btn"><span class="btn-text">Заказать монтаж</span></button>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="question">
+    <div class="container">
+        <div class="question">
+            <h1 class="question__title" id="question__title">Часто задаваемые вопросы</h1>
+            <button class="accordion">
+                <span>Как рассчитать мощность кондиционера?</span>
+            </button>
+            <div class="panel">
+                <p>Гарантийное обслуживание в случае возвращения насекомых в течение года предоставляется бесплатно! Мы
+                    полностью уверены в эффективности применяемых нами препаратов и квалификации сотрудников. Стоимость
+                    услуг оговаривается заранее.</p>
+            </div>
+            <button class="accordion">
+                <span>Инверторный или стандартный? В чем отличие и какой лучше?</span>
+            </button>
+            <div class="panel">
+                <p>Гарантийное обслуживание в случае возвращения насекомых в течение года предоставляется бесплатно! Мы
+                    полностью уверены в эффективности применяемых нами препаратов и квалификации сотрудников. Стоимость
+                    услуг оговаривается заранее.</p>
+            </div>
+            <button class="accordion">
+                <span>Можно ли включать сплит систему в зимнее время на обогрев?</span>
+            </button>
+            <div class="panel">
+                <p>Гарантийное обслуживание в случае возвращения насекомых в течение года предоставляется бесплатно! Мы
+                    полностью уверены в эффективности применяемых нами препаратов и квалификации сотрудников. Стоимость
+                    услуг оговаривается заранее.</p>
+            </div>
+            <button class="accordion">
+                <span>Можно ли охладить 1 кондиционером сразу 2 комнаты?</span>
+            </button>
+            <div class="panel">
+                <p>Гарантийное обслуживание в случае возвращения насекомых в течение года предоставляется бесплатно! Мы
+                    полностью уверены в эффективности применяемых нами препаратов и квалификации сотрудников. Стоимость
+                    услуг оговаривается заранее.</p>
+            </div>
+            <button class="accordion">
+                <span>Когда производить монтаж – до или после ремонта?</span>
+            </button>
+            <div class="panel">
+                <p>Гарантийное обслуживание в случае возвращения насекомых в течение года предоставляется бесплатно! Мы
+                    полностью уверены в эффективности применяемых нами препаратов и квалификации сотрудников. Стоимость
+                    услуг оговаривается заранее.</p>
+            </div>
+
+            <div class="question__button">
+                <button class="question__button--btn">Смотреть все вопросы</button>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="certificates">
+    <div class="container">
+        <div class="certificates">
+            <div class="certificates__title">
+                Сертификаты
+            </div>
+            <div class="certificates__item">
+                <img src="./img/cert1.png" class="certificates__item--pic" alt="">
+                <img src="./img/cert2.png" class="certificates__item--pic" alt="">
+                <img src="./img/cert3.png" class="certificates__item--pic" alt="">
+                <img src="./img/cert2.png" class="certificates__item--pic" alt="">
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="bren-icon">
+    <div class="container">
+        <div class="bren-icon">
+
+            <img src="./img/brend1.svg" class="bren-icon__pic" alt="">
+            <img src="./img/brend2.svg" class="bren-icon__pic" alt="">
+            <img src="./img/brend3.svg" class="bren-icon__pic" alt="">
+
+            <img src="./img/brend4.svg" class="bren-icon__pic" alt="">
+            <img src="./img/brend5.svg" class="bren-icon__pic" alt="">
+            <img src="./img/brend6.svg" class="bren-icon__pic" alt="">
+
+            <img src="./img/brend1.svg" class="bren-icon__pic" alt="">
+            <img src="./img/brend2.svg" class="bren-icon__pic" alt="">
+            <img src="./img/brend3.svg" class="bren-icon__pic" alt="">
+
+
+        </div>
+    </div>
+</section>
+
+<section id="review">
+    <div class="container">
+        <div class="review">
+            <h1 class="review__title" id="review__title">Отзывы наших клиентов</h1>
+            <div class="review__buttons">
+                <button class="review__buttons__video">Видеоотзывы</button>
+                <button class="review__buttons__com">Отзывы</button>
+            </div>
+            <div class="review__videos">
+                <div class="review__videos--vd">
+                    <iframe width="300" height="223" src="https://www.youtube.com/embed/2RjYrG_Ab-U"
+                            title="YouTube video player"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                </div>
+                <div class="review__videos--vd">
+                    <iframe width="300" height="223" src="https://www.youtube.com/embed/MJUssi2c6Ls"
+                            title="YouTube video player"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                </div>
+                <div class="review__videos--vd">
+                    <iframe width="300" height="223" src="https://www.youtube.com/embed/wHFflWvii3M"
+                            title="YouTube video player"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                </div>
+
+                <div class="review__videos--vd">
+                    <iframe width="300" height="223" src="https://www.youtube.com/embed/lBfshkPlMW8"
+                            title="YouTube video player"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer id="footer">
+    <div class="container">
+        <div class="footer">
+            <div class="footer__logo">
+                <img src="./img/Logo.svg" class="footer__logo--pic" alt="">
+            </div>
+            <div class="footer__menu">
+                <a href="#" class="footer__menu--elem">Обычные On/Off</a>
+                <a href="#" class="footer__menu--elem">Инверторные</a>
+                <a href="#" class="footer__menu--elem">Мульти-системы</a>
+                <a href="#" class="footer__menu--elem">Работы по монтажу</a>
+                <a href="#" class="footer__menu--elem">Вопрос-ответ</a>
+                <a href="#" class="footer__menu--elem">Отзывы клиентов</a>
+            </div>
+            <div class="footer__item">
+                <div class="footer__item--elem">
+                    <i class="fa-solid fa-envelope foot-icon"></i>
+                    <a href="https://mail.ru/" class="footer__item--elem__desk">info@teh-climat.ru</a>
+                </div>
+                <div class="footer__item--elem">
+                    <i class="fa-solid fa-phone foot-icon"></i>
+                    <div class="footer__item--elem__desk"> <a href="tel:84952058228">8 (495) 205 82 28</a> <a href="tel:89854143434">8 (985) 414 34 34</a></div>
+                </div>
+                <div class="footer__item--elem">
+                    <i class="fa-solid fa-clock foot-icon"></i>
+                    <a href="#" class="footer__item--elem__desk">Режим работы: с 9:00 до 22:00</a>
+                </div>
+                <div class="footer__item--elem message">
+                    <a href="https://www.instagram.com/">
+                        <i class="fa-brands fa-instagram foot-message-icon"></i>
+                    </a>
+                    <a href="https://vk.com/">
+                        <i class="fa-solid fa-w foot-message-icon"></i>
+                    </a>
+                    <a href="https://www.facebook.com/">
+                        <i class="fa-brands fa-facebook foot-message-icon"></i>
+                    </a>
+                    <a href="https://www.youtube.com/">
+                        <i class="fa-brands fa-youtube foot-message-icon"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="./js/jquery.js"></script>
+<script src="./js/slick.min.js"></script>
+<script src="./js/script.js"></script>
+</body>
+</html>

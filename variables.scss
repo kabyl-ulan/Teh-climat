@@ -1,0 +1,107 @@
+$bgElemColor: #8DB932;
+
+%menu {
+  font-size: 2vw;
+  color: $bgElemColor;
+  text-transform: uppercase;
+}
+
+%btn {
+  padding: 0 0.6%;
+  background: $bgElemColor;
+  font-size: 16px;
+  border-radius: 10px;
+  color: #ffffff;
+  transition: .4s linear;
+  border: none;
+
+  &:hover {
+    background: #2c8021;
+    cursor: pointer;
+  }
+
+  &:active {
+    opacity: 1%;
+  }
+}
+
+%icon {
+  color: $bgElemColor;
+  margin-right: 8px;
+  font-size: 3vh;
+}
+
+%par-elem {
+  font-size: 18px;
+  color: #ffffff;
+}
+
+%line {
+  background-color: #72a6de;
+  height: 1px;
+  color: #4290ea;
+}
+
+%title-elem {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  color: #263238;
+}
+
+%desc-elem {
+  font-family: Trebuchet MS, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  color: #333333;
+}
+
+%btn-product {
+  padding: 2% 4%;
+  text-transform: uppercase;
+  color: #263238;
+  font-size: 13px;
+  background: #ffffff;
+  border-color: #263238;
+  font-weight: bold;
+  transition: .10s;
+
+  &:hover {
+    color: #ffffff;
+    background: $bgElemColor;
+    cursor: pointer;
+    outline: none;
+    border-color: $bgElemColor;
+  }
+
+  &:active {
+    opacity: 1.5%;
+    background: #095007;
+  }
+}
+
+%btn-review {
+  border-color: #FFFFFF;
+  padding: 2% 5%;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  font-size: 1.3vw;
+  background: transparent;
+  cursor: pointer;
+  transition: .4s;
+  outline: $bgElemColor;
+
+  &:hover {
+    background: $bgElemColor;
+    border-color: $bgElemColor;
+  }
+
+  &:active {
+    border-color: $bgElemColor;
+    opacity: 0.5;
+    background: rgba(71, 148, 21, 0.49);
+  }
+}
